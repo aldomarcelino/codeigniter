@@ -6,6 +6,6 @@ class Product extends BaseController
 {
     public function index(): string
     {
-        return view('product_message');
+        return view('v_product');
     }
 }

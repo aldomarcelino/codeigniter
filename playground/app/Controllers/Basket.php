@@ -6,6 +6,6 @@ class Basket extends BaseController
 {
     public function index(): string
     {
-        return view('basket_message');
+        return view('v_basket');
     }
 }
