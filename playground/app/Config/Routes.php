@@ -14,3 +14,5 @@ $routes->get('logout', 'AuthController::logout');
 
 $routes->get('/product', 'Product::index', ['filter' => 'auth']);
 $routes->get('/basket', 'Basket::index', ['filter' => 'auth']);
+$routes->get('/contact', 'Contact::index', ['filter' => 'auth']);
+

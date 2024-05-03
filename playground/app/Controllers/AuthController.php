@@ -28,7 +28,7 @@ class AuthController extends BaseController
                     'isLoggedIn' => TRUE
                 ]);
 
-                return redirect()->to(base_url('/'));
+                return redirect()->to(base_url('/contact'));
             } else {
                 session()->setFlashdata('failed', 'Username & Password Salah');
                 return redirect()->back();
