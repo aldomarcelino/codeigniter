@@ -8,7 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index', ['filter' => 'auth']);
 
 
-$routes->get('login', 'AuthController::login');
+$routes->get('login', 'AuthController::login', ['filter'=> 'alradyLogIn']);
 $routes->post('login', 'AuthController::login');
 $routes->get('logout', 'AuthController::logout');
 
