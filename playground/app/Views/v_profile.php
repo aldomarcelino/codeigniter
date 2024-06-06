@@ -1,5 +1,4 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
-This is Basket page
+Ini halaman Profile
 <?= $this->endSection() ?>
-

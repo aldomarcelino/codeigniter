@@ -1,4 +1,4 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
-Ini halaman Contact
+Ini halaman FAQ
 <?= $this->endSection() ?>

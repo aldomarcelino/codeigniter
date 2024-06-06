@@ -5,14 +5,16 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+
 $routes->get('/', 'Home::index', ['filter' => 'auth']);
 
-
-$routes->get('login', 'AuthController::login', ['filter'=> 'alradyLogIn']);
-$routes->post('login', 'AuthController::login');
+$routes->get('login', 'AuthController::login');
+$routes->post('login', 'AuthController::login', ['filter' => 'redirect']);
 $routes->get('logout', 'AuthController::logout');
 
-$routes->get('/product', 'Product::index', ['filter' => 'auth']);
-$routes->get('/basket', 'Basket::index', ['filter' => 'auth']);
-$routes->get('/contact', 'Contact::index', ['filter' => 'auth']);
+$routes->get('produk', 'ProdukController::index', ['filter' => 'auth']);
+$routes->get('keranjang', 'TransaksiController::index', ['filter' => 'auth']);
 
+$routes->get('faq', 'Home::faq', ['filter' => 'auth']);
+$routes->get('profile', 'Home::profile', ['filter' => 'auth']);
+$routes->get('contact', 'Home::contact', ['filter' => 'auth']);
