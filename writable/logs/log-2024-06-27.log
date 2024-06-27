@@ -234,3 +234,102 @@ INFO - 2024-06-27 07:32:55 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-06-27 07:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-06-27 07:32:58 --> Cart Class Initialized
 INFO - 2024-06-27 07:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:36 --> Cart Class Initialized
+INFO - 2024-06-27 07:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:41 --> Cart Class Initialized
+INFO - 2024-06-27 07:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:34:50 --> Cart Class Initialized
+INFO - 2024-06-27 07:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:35:18 --> Cart Class Initialized
+INFO - 2024-06-27 07:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:41:07 --> Cart Class Initialized
+INFO - 2024-06-27 07:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:41:08 --> Cart Class Initialized
+INFO - 2024-06-27 07:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:41:09 --> Cart Class Initialized
+INFO - 2024-06-27 07:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:41:17 --> Cart Class Initialized
+INFO - 2024-06-27 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:41:20 --> Cart Class Initialized
+INFO - 2024-06-27 07:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:41:26 --> Cart Class Initialized
+INFO - 2024-06-27 07:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 07:41:26 --> ErrorException: Undefined property: App\Controllers\Home::$transaction
+in APPPATH/Controllers/Home.php on line 36.
+ 1 APPPATH/Controllers/Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$transaction', '/Users/aldomarcelino/Documents/Builds/codeigniter/app/Controllers/Home.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/aldomarcelino/Documents/Builds/codeigniter/public/index.php')
+INFO - 2024-06-27 07:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 07:42:43 --> ErrorException: Undefined property: App\Controllers\Home::$transaction
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$transaction', '/Users/aldomarcelino/Documents/Builds/codeigniter/app/Controllers/Home.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/aldomarcelino/Documents/Builds/codeigniter/public/index.php')
+INFO - 2024-06-27 07:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 07:42:44 --> ErrorException: Undefined property: App\Controllers\Home::$transaction
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$transaction', '/Users/aldomarcelino/Documents/Builds/codeigniter/app/Controllers/Home.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/aldomarcelino/Documents/Builds/codeigniter/public/index.php')
+INFO - 2024-06-27 07:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 07:42:45 --> ErrorException: Undefined property: App\Controllers\Home::$transaction
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$transaction', '/Users/aldomarcelino/Documents/Builds/codeigniter/app/Controllers/Home.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/aldomarcelino/Documents/Builds/codeigniter/public/index.php')
+INFO - 2024-06-27 07:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 07:42:45 --> ErrorException: Undefined property: App\Controllers\Home::$transaction
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$transaction', '/Users/aldomarcelino/Documents/Builds/codeigniter/app/Controllers/Home.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/aldomarcelino/Documents/Builds/codeigniter/public/index.php')
+INFO - 2024-06-27 07:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-27 07:42:45 --> ErrorException: Undefined property: App\Controllers\Home::$transaction
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$transaction', '/Users/aldomarcelino/Documents/Builds/codeigniter/app/Controllers/Home.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/aldomarcelino/Documents/Builds/codeigniter/public/index.php')
+INFO - 2024-06-27 07:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-27 07:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
