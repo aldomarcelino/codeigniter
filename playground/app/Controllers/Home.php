@@ -6,10 +6,12 @@ use App\Models\ProductModel;
 
 class Home extends BaseController
 {
-
     protected $product;
 
-    function __construct(){
+    function __construct()
+    {
+        helper('form');
+        helper('number');
         $this->product = new ProductModel();
     }
 
