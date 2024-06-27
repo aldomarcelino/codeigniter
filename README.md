@@ -1,1 +1,1 @@
-# codeigniter
+# Repo for exploring codeigniter
