@@ -24,7 +24,20 @@ History Transaksi Pembelian <strong><?= $username ?></strong>
                     <tr>
                         <th scope="row"><?php echo $index + 1 ?></th>
                         <td><?php echo $item['id'] ?></td>
-                        <td><?php echo $item['created_at'] ?></td>
+                        <td>
+                        <?php 
+                        $utcTime = $item['created_at']; // e.g., '2024-07-04 04:37:07'
+
+                        // Create a DateTime object from the UTC time
+                        $date = new DateTime($utcTime, new DateTimeZone('UTC'));
+                        
+                        // Set the time zone to WIB (Western Indonesian Time)
+                        $date->setTimeZone(new DateTimeZone('Asia/Jakarta')); // For WIB
+                        
+                        // Format the date for display
+                        $indonesianTime = $date->format('Y-M-d, D H:i:s');
+
+                        echo $indonesianTime ?></td>
                         <td><?php echo number_to_currency($item['total_harga'], 'IDR') ?></td>
                         <td><?php echo $item['alamat'] ?></td>
                         <td><?php echo ($item['status'] == "1") ? "Sudah Selesai" : "Belum Selesai" ?></td>
