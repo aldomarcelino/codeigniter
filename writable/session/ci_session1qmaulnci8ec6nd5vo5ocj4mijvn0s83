@@ -1,0 +1,11 @@
+__ci_last_regenerate|i:1720911517;_ci_previous_url|s:38:"http://localhost:8080/index.php/produk";username|s:7:"jarwi16";role|s:5:"admin";isLoggedIn|b:1;failed|s:376:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The nama field must be at least 6 characters in length.</li>
+					<li>The harga field must contain only numbers.</li>
+					<li>The jumlah field must contain only numbers.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:1:{s:6:"failed";s:3:"old";}

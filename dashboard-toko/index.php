@@ -27,12 +27,12 @@
       <strong>Transaction <?= $bulan_teks ?> <?= $tahun ?></strong><br><br>
       <span class="number">
           <?php
-          $send1 = curl("monthly", "type=transaction&tahun=" . $tahun . "&bulan=" . $bulan_angka . "");
-          $hasil1 = $send1->results;
+            $send1 = curl("monthly", "type=transaction&tahun=" . $tahun . "&bulan=" . $bulan_angka . "");
+            $hasil1 = $send1->results;
 
-          if (!empty($hasil1)) {
-              echo $hasil1->jml;
-          }
+            if (!empty($hasil1)) {
+                echo $hasil1->jml;
+            }
           ?>
       </span>
   </div>
@@ -40,12 +40,12 @@
       <strong>Earning <?= $bulan_teks ?> <?= $tahun ?></strong><br><br>
       <span class="number">
           <?php
-          $send2 = curl("monthly", "type=earning&tahun=" . $tahun . "&bulan=" . $bulan_angka . "");
-          $hasil2 = $send2->results;
+            $send2 = curl("monthly", "type=earning&tahun=" . $tahun . "&bulan=" . $bulan_angka . "");
+            $hasil2 = $send2->results;
 
-          if (!empty($hasil2)) {
-              echo "IDR " . number_format($hasil2->jml, 2, ',', '.');
-          }
+            if (!empty($hasil2)) {
+                echo "IDR " . number_format($hasil2->jml, 2, ',', '.');
+            }
           ?>
       </span>
   </div>
@@ -53,12 +53,12 @@
       <strong>User <?= $bulan_teks ?> <?= $tahun ?></strong><br><br>
       <span class="number">
           <?php
-          $send3 = curl("monthly", "type=user&tahun=" . $tahun . "&bulan=" . $bulan_angka . "");
-          $hasil3 = $send3->results;
+            $send3 = curl("monthly", "type=user&tahun=" . $tahun . "&bulan=" . $bulan_angka . "");
+            $hasil3 = $send3->results;
 
-          if (!empty($hasil3)) {
-              echo $hasil3->jml;
-          }
+            if (!empty($hasil3)) {
+                echo $hasil3->jml;
+            }
           ?>
       </span>
   </div>
@@ -67,19 +67,40 @@
         <div class="item">
             <strong>Transaction <?= $tahun ?></strong><br><br>
             <span class="number">
-                0
+            <?php
+                $send1 = curl("yearly", "type=transaction&tahun=" . $tahun . "");
+                $hasil1 = $send1->results;
+
+                if (!empty($hasil1)) {
+                    echo $hasil1->jml;
+                }
+            ?>
             </span>
         </div>
         <div class="item">
             <strong>Earning <?= $tahun ?></strong><br><br>
             <span class="number">
-                0
+            <?php
+                $send2 = curl("yearly", "type=earning&tahun=" . $tahun . "");
+                $hasil2 = $send2->results;
+
+                if (!empty($hasil2)) {
+                    echo "IDR " . number_format($hasil2->jml, 2, ',', '.');
+                }
+            ?>
             </span>
         </div>
         <div class="item">
             <strong>User <?= $tahun ?></strong><br><br>
             <span class="number">
-                0
+            <?php
+                $send3 = curl("yearly", "type=user&tahun=" . $tahun . "");
+                $hasil3 = $send3->results;
+
+                if (!empty($hasil3)) {
+                    echo $hasil3->jml;
+                }
+            ?>
             </span>
         </div>
     </div>

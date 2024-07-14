@@ -117,7 +117,7 @@
                     for (var i = 0; i < results.length; i++) {
                         $("#kabupaten").append($('<option>', {
                             value: results[i]["city_id"],
-                            text: results[i]['province'] + " " + results[i]['city_name']
+                            text:  results[i]['city_name']
                         }));
                     }
                     hitungTotal();
